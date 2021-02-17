@@ -14,16 +14,33 @@ export default createGlobalStyle`
   }
 
   h1, h2, h3 {
-      font: 300 72px Raleway, sans-serif;
+      font-weight: 300;
+      font-family: Raleway, sans-serif;
       text-transform: uppercase;
   }
 
+  h1 {
+      font-size: 54px;
+
+      @media(min-width: 1024px) {
+          font-size: 72px;
+      }
+  }
+
   h2 {
-      font-size: 48px;
+      font-size: 36px;
+
+      @media(min-width: 1024px) {
+          font-size: 48px;
+      }
   }
 
   h3 {
-      font-size: 41px;
+      font-size: 31px;
+
+      @media(min-width: 1024px) {
+          font-size: 41px;
+      }
   }
 
   a {

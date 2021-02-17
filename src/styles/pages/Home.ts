@@ -8,8 +8,14 @@ export const Container = styled.div`
     align-items: center;
     flex-direction: column;
 
-    .in-construction {
-        position: fixed;
+    & > svg {
+        width: 135px;
+        height: 111px;
+
+        @media(min-width: 1024px) {
+            width: 180px;
+            height: 148px;
+        }
     }
 `
 
@@ -18,8 +24,8 @@ export const Sling = styled.div`
 
     svg {
         position: fixed;
-        width: 180px;
-        height: 136px;
+        width: 135px;
+        height: 102px;
 
         @media(min-width: 1024px) {
             width: 270px;
