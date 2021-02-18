@@ -5,15 +5,20 @@ import 'react-multi-carousel/lib/styles.css';
 import {Box, Card, Dot, Section} from '../styles/components/SocialProof'
 import {ColorGray, ColorPurple, ParagraphNoMargin} from '../styles/components/Shared'
 
-const CustomDots = ({ onClick, active, ...props }) => (
-    <li
-        {...props}
-        className={active ? 'active' : 'inactive'}
-        onClick={onClick}
-    >
-        <Dot className={active ? 'active' : 'inactive'} />
-    </li>
-);
+const CustomDots = (props) => {
+    const {carouselState, onClick, active, ...restProps} = props;
+
+    return(
+        <li
+            {...restProps}
+            className={active ? 'active' : 'inactive'}
+            onClick={onClick}
+        >
+            <Dot className={active ? 'active' : 'inactive'} />
+        </li>
+    );
+}
+
 
 const Banner: React.FC = () => {
     const testimonials = [

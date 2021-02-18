@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Section = styled.div`
+export const Section = styled.footer`
     background-color: #1F1E19;
     padding: 60px 32px;
     display: flex;
