@@ -27,7 +27,7 @@ const Banner: React.FC = () => {
     return (
         <Section>
             <Container>
-                <h2><ColorYellow>Conheça terapias alternativas</ColorYellow></h2>
+                <h2><ColorYellow>Conheça terapias holísticas</ColorYellow></h2>
                 <Flex>
                     <Card>
                         <ColorWhite>
