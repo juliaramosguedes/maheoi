@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
-import { Section as BaseSection, Card as BaseCard } from './Shared';
-import aboutBg from '../../assets/about-me.png';
+import { Section as BaseSection } from './Shared';
+import aboutBg from '../../assets/about-me.jpg';
 
 export const Section = styled(BaseSection)`
     background: url(${aboutBg}) no-repeat scroll bottom center;

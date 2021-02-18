@@ -8,7 +8,7 @@ const Banner: React.FC = () => {
         <Section>
             <Logo />
             <h1>Maheoi</h1>
-            <h2>Tarot e reiki</h2>
+            <h2>Tarot Terapêutico <br/> e Reiki Xamânico</h2>
         </Section>
     )
 }

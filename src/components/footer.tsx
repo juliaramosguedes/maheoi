@@ -11,7 +11,10 @@ const Banner: React.FC = () => {
             <ColorWhite>
                 <p>Desenvolvido com{' '}
                     <Heart  title="Coração" width="16px" /> & <Coffee title="Café" width="18px" />
-                    {' '}por <a href="https://www.linkedin.com/in/julia-ramos-guedes"><u>Julia Ramos</u></a>
+                    {' '}por <a
+                        href="https://www.linkedin.com/in/julia-ramos-guedes"
+                        title="Perfil no Linkedin da Julia Ramos, também conhecida como Maheoi"
+                    ><u>Julia Ramos</u></a>
                 </p>
                 <p>© Copyright 2021 - Todos os direitos reservados</p>
             </ColorWhite>

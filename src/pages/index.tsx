@@ -7,7 +7,7 @@ const Home: React.FC = () => {
     return (
         <>
             <Head>
-                <title>Maheoi</title>
+                <title>Maheoi: Tarot Terapêutico e Reiki Xamânico Online</title>
             </Head>
             <Banner />
             <Services />

@@ -21,7 +21,7 @@ export const Dot = styled.div`
 `
 
 export const Card = styled(BaseCard)`
-    border: 1px solid #FFD500;
+    border: 1px solid #510087;
     padding: 24px;
 
     h3, p, span {
@@ -30,5 +30,5 @@ export const Card = styled(BaseCard)`
 `
 
 export const Box = styled.div`
-    padding: 16px 16px 42px;
+    padding: 0 0 48px;
 `

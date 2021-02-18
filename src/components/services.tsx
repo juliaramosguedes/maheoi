@@ -27,7 +27,7 @@ const Banner: React.FC = () => {
     return (
         <Section>
             <Container>
-                <h2><ColorYellow>Conheça</ColorYellow></h2>
+                <h2><ColorYellow>Conheça terapias alternativas</ColorYellow></h2>
                 <Flex>
                     <Card>
                         <ColorWhite>
@@ -54,11 +54,11 @@ const Banner: React.FC = () => {
                                 <h3>Reiki xamânico</h3>
                                 <h3>R$ 35</h3>
                             </Flex>
-                            <p>O reiki xamânico Ma'Heo’O é um tratamento energético e espiritual, complementar ao tratamento da
+                            <p>O reiki xamânico Ma'Heo'O é um tratamento energético e espiritual, complementar ao tratamento da
                                 medicina tradicional.</p>
                             <p>Sua aplicação proporciona um profundo estado de relaxamento, equilibra as energias, os chakras e
                                 os corpos sutis e nos conecta à natureza.</p>
-                            <p>Ma'Heo’O significa Grande Espírito e sua prática combina a energia de Ma'Heo’O com a energia da
+                            <p>Ma'Heo'O significa Grande Espírito e sua prática combina a energia de Ma'Heo’O com a energia da
                                 Mãe Terra, atráves dos quatro elementos (Fogo, Terra, Água e Ar).</p>
                             <Button onClick={() => onScheduleClick("https://calendly.com/juliaramos/reiki")}>Agendar uma consulta</Button>
                         </ColorWhite>

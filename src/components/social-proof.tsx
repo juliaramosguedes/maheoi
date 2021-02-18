@@ -105,7 +105,7 @@ const Banner: React.FC = () => {
     return (
         <Section>
             <Container>
-                <h2><ColorPurple>Depoimentos</ColorPurple></h2>
+                <h2><ColorPurple>Depoimentos de clientes</ColorPurple></h2>
                 <Carousel
                     responsive={responsive}
                     arrows={false}

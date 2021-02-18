@@ -38,10 +38,13 @@ export default class MyDocument extends Document {
                         href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;1,300&display=swap"
                         rel="stylesheet"
                     />
+                    <link rel="canonical" href="https://www.maheoi.com" />
                     <link rel="icon" href="favicon.ico" />
+                    <meta name="robots" content="index, follow" />
                     <meta
                         name="description"
-                        content="Maheoi, serviços de tarot terapêutico e reiki xamânico online."
+                        content="Relaxe profundamente e entre em equilíbrio com o reiki xamânico ou adquira mais
+                        consciência sobre o seu universo com o tarot. Agende sua consulta online!"
                     />
                 </Head>
                 <Main />

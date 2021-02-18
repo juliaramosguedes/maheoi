@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-import bannerBg from '../../assets/banner.png';
+import bannerBg from '../../assets/banner.jpg';
 import { Section as BaseSection } from './Shared';
 
 export const Section = styled(BaseSection)`
@@ -23,6 +23,7 @@ export const Section = styled(BaseSection)`
 
     h2 {
         font-size: 31px;
+        text-align: center;
 
         @media(min-width: 1024px) {
             font-size: 41px;
