@@ -1,7 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 
-import { Banner, Services, SocialProof, AboutMe } from '../components'
+import { Banner, Services, SocialProof, AboutMe, Footer } from '../components'
 
 const Home: React.FC = () => {
     return (
@@ -13,6 +13,7 @@ const Home: React.FC = () => {
             <Services />
             <SocialProof />
             <AboutMe />
+            <Footer />
         </>
     )
 }

@@ -1,4 +1,5 @@
 import React from 'react'
+import {Instagram} from '@styled-icons/fa-brands/Instagram'
 
 import {Flex, Image, Section} from '../styles/components/About'
 import { Card, ColorWhite, ColorYellow } from '../styles/components/Shared'
@@ -27,6 +28,13 @@ const Banner: React.FC = () => {
                             O nome Maheoi vem da minha iniciação no reiki Ma'Heo’O. Momento em que tive uma visão em que
                             adentrei numa floresta, que me levou a uma aldeia. Lá fui recebida por um xamã que me batizou
                             com esse nome.
+                        </p>
+                        <p>Você pode me encontrar no{' '}
+                            <a href="https://www.instagram.com/maheoi.xamanica">
+                                <Instagram title="Perfil do Instagram da Maheoi" width="24px"/> <u>maheoi.xamanica</u>
+                            </a>
+                            {' '}ou através do email{' '}
+                            <a href="mailto:ola@maheoi.com"><u>ola@maheoi.com</u></a>
                         </p>
                     </ColorWhite>
                 </Card>

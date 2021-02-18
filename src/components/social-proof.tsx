@@ -18,28 +18,47 @@ const CustomDots = ({ onClick, active, ...props }) => (
 const Banner: React.FC = () => {
     const testimonials = [
         {
-            name: 'Poliana Branti',
+            name: 'Fernanda Fortes',
             service: 'Reiki xamânico',
-            from: 'Faxial do Soturno, RS',
-            testimonial: `“Descobri o aplicativo por meio de divulgação nas redes sociais, e também por meio de uma notificação ao abrir o meu portal do aluno. Sou aluno da Anhanguera, onde curso a Bi-Graduação: Bacharelado em Administração e Tecnologia Superior em Marketing Digital. Tenho MEI por conta da produção de marketing digital, mas ficou para segundo plano, pois o Consultoria Educação está rendendo muito pra mim.”`
+            from: 'São Bernardo do Campo, SP - Brasil',
+            testimonial: `“Eu não me considero uma pessoa muito sensitiva, mas quando a Julia aplicou o reiki em mim me
+                senti muito leve, como se estivesse flutuando durante toda a aplicação. Em alguns momentos também sentia
+                um calor maior em algumas partes específicas do corpo, conforme o chakra que ela estava trabalhando.
+                Me senti extremamente relaxada durante a aplicação e também nos dias seguintes. Achei maravilhoso
+                e recomendo a todos.”`
         },
         {
             name: 'Henrique Góes',
             service: 'Tarot terapêutico',
-            from: 'Mata de São Joao, BA',
-            testimonial: `“Tem me ajudado muito nesse período tão difícil que estamos vivendo. Através da renda que resgato estou conseguindo pagar meus estudos, pois isso é prioridade pra mim. Como muitos, fiquei desempregada e já estava quase trancando meu curso na faculdade, mas conheci o App, e além de ajudar a tornar meu sonho realidade (de me formar em uma graduação), também consigo ajudar outras pessoas com o mesmo objetivo.”`
+            from: 'São Paulo, SP - Brasil',
+            testimonial: `“Essa foi minha primeira consulta com o tarô e não poderia ter sido mais especial! A Júlia
+                soube administrar com grande maestria nossa consulta, me deixando super confortável em expor minhas
+                angústias. Ela me ajudou a entender os processos que me trouxeram até minha situação atual e quais são
+                os passos mais indicados para que eu realize os meus sonhos! Graças a estas orientações, consegui mudar
+                meu comportamento e assumir uma postura mais firme na empresa na qual trabalho, reconhecendo o meu
+                valor. A diretoria da empresa se mostrou satisfeita com minha evolução e concordaram com um aumento de
+                30% no meu salário e uma promoção para o cargo que eu buscava. Gratidão eterna!”`
         },
         {
             name: 'Poliana Branti',
             service: 'Reiki xamânico',
-            from: 'Faxial do Soturno, RS',
-            testimonial: `“Descobri o aplicativo por meio de divulgação nas redes sociais, e também por meio de uma notificação ao abrir o meu portal do aluno. Sou aluno da Anhanguera, onde curso a Bi-Graduação: Bacharelado em Administração e Tecnologia Superior em Marketing Digital. Tenho MEI por conta da produção de marketing digital, mas ficou para segundo plano, pois o Consultoria Educação está rendendo muito pra mim.”`
+            from: 'Fort Lauderdale, Florida - USA',
+            testimonial: `“Minha sessão de reiki xamânico foi muito especial! Já tinha feito sessões de reiki antes,
+                mas essa foi muito diferente de uma maneira positiva. Senti como se estivesse em outro plano e tive
+                sensações muito vívidas misturando cores e vivências. Senti uma vibração muito forte do chakra do
+                coração e como se espinhos fossem arrancados. Apos a sessão me senti energizada e meu foco e atenção
+                nas atividades melhoraram muito no dia seguinte. Muito obrigada, Julia”`
         },
         {
-            name: 'Henrique Góes',
+            name: 'Nami Abe',
             service: 'Tarot terapêutico',
-            from: 'Mata de São Joao, BA',
-            testimonial: `“Tem me ajudado muito nesse período tão difícil que estamos vivendo. Através da renda que resgato estou conseguindo pagar meus estudos, pois isso é prioridade pra mim. Como muitos, fiquei desempregada e já estava quase trancando meu curso na faculdade, mas conheci o App, e além de ajudar a tornar meu sonho realidade (de me formar em uma graduação), também consigo ajudar outras pessoas com o mesmo objetivo.”`
+            from: 'São Paulo, SP - Brasil',
+            testimonial: `“Quero muito agradecer voce, Julia, por essa conexão maravilhosa que aconteceu. Eu já tive um
+                contato breve antes com tarot mas não se compara com o que ocorreu hoje. Eu estava totalmente entregue
+                e meu coração estava pulsando forte. Foi uma viagem profunda no autoconhecimento, revivi certas coisas
+                em mim que estavam enterradas lá no fundo e que tinha medo de acessar, mas que agora estão clareando.
+                Foi lindo ver as cartas se manifestando e o mais incrível foi ver o quanto você se conecta
+                profundamente com as energias. Muito obrigada mesmo, foi surreal.”`
         }
     ];
 
@@ -47,7 +66,7 @@ const Banner: React.FC = () => {
         testimonials.map(({ name, from, service, testimonial }, index) => (
             <Box key={`testimonial-card-${index}`}>
                 <Card>
-                    <h3>Sobre {service}</h3>
+                    <h3>{service}</h3>
                     <ColorGray>
                         <p>{testimonial}</p>
                         <ParagraphNoMargin><strong>{name}</strong></ParagraphNoMargin>

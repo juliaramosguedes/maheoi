@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { lighten } from 'polished';
 
 export const Section = styled.section`
-    padding: 90px 36px 26px;
+    padding: 90px 36px;
 
     & > * {
         max-width: 1076px;
