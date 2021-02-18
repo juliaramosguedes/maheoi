@@ -9,7 +9,7 @@ const CustomDots = ({ onClick, active, ...props }) => (
     <li
         {...props}
         className={active ? 'active' : 'inactive'}
-        onClick={() => onClick()}
+        onClick={onClick}
     >
         <Dot className={active ? 'active' : 'inactive'} />
     </li>
