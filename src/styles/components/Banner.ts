@@ -1,18 +1,15 @@
 import styled from "styled-components";
-import bannerBg from '../../assets/banner.png';
 
-export const Section = styled.section`
-    padding: 180px 24px;
+import bannerBg from '../../assets/banner.png';
+import { Section as BaseSection } from './Shared';
+
+export const Section = styled(BaseSection)`
+    background: url(${bannerBg}) no-repeat local top center;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: url(${bannerBg}) no-repeat local top center;
-    background-size: cover;
-
-    & > * {
-        max-width: 1076px;
-    }
 
     & > svg {
         width: 135px;
