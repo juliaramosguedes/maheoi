@@ -38,11 +38,14 @@ export default class MyDocument extends Document {
                         href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;1,300&display=swap"
                         rel="stylesheet"
                     />
+                    <link rel="icon" href="favicon.ico" />
+                    <meta
+                        name="description"
+                        content="Maheoi, serviços de tarot terapêutico e reiki xamânico online."
+                    />
                 </Head>
-                <body>
-                    <Main />
-                    <NextScript />
-                </body>
+                <Main />
+                <NextScript />
             </Html>
         );
     }
