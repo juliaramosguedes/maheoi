@@ -1,11 +1,19 @@
 import styled from "styled-components";
 
-import { Section as BaseSection } from './Shared';
+import { Section as BaseSection, Card as BaseCard } from './Shared';
 import aboutBg from '../../assets/about-me.png';
 
 export const Section = styled(BaseSection)`
-    background: url(${aboutBg}) no-repeat scroll top center;
+    background: url(${aboutBg}) no-repeat scroll bottom center;
     background-size: cover;
+`
+
+export const Card = styled.div`
+    max-width: 300px;
+
+    @media(min-width: 1024px) {
+        max-width: 700px;
+    }
 `
 
 export const Image = styled.div`
@@ -26,6 +34,8 @@ export const Image = styled.div`
     }
 
     @media(min-width: 768px) {
+        margin: 0 0 36px;
+
         div {
             width: 280px;
             height: 350px;
@@ -42,7 +52,8 @@ export const Image = styled.div`
 export const Flex = styled.div`
     display: flex;
     flex-flow: column wrap;
-    justify-content: space-around;
+    justify-content: space-between;
+    width: 100%;
 
     @media(min-width: 768px) {
         flex-flow: row nowrap;

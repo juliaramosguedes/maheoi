@@ -1,22 +1,23 @@
 import styled from "styled-components";
-import { lighten } from 'polished';
 
 export const Section = styled.section`
     padding: 90px 36px;
-
-    & > * {
-        max-width: 1076px;
-    }
 
     @media(min-width: 1024px) {
         padding: 90px 48px;
     }
 `
 
+export const Container = styled.div`
+    max-width: 1076px;
+    margin: 0 auto;
+`
+
 export const Flex = styled.div`
     display: flex;
     flex-flow: column wrap;
     justify-content: space-between;
+    width: 100%;
 
     @media(min-width: 768px) {
         flex-flow: row nowrap;
@@ -27,7 +28,7 @@ export const Card = styled.div`
     max-width: 300px;
 
     @media(min-width: 1024px) {
-        max-width: 480px;
+        max-width: 450px;
     }
 `
 

@@ -3,7 +3,7 @@ import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
 import {Box, Card, Dot, Section} from '../styles/components/SocialProof'
-import {ColorGray, ColorPurple, ParagraphNoMargin} from '../styles/components/Shared'
+import {ColorGray, ColorPurple, Container, ParagraphNoMargin} from '../styles/components/Shared'
 
 const CustomDots = (props) => {
     const {carouselState, onClick, active, ...restProps} = props;
@@ -104,15 +104,17 @@ const Banner: React.FC = () => {
     // @ts-ignore
     return (
         <Section>
-            <h2><ColorPurple>Depoimentos</ColorPurple></h2>
-            <Carousel
-                responsive={responsive}
-                arrows={false}
-                customDot={<CustomDots />}
-                showDots={true}
-            >
-                {TestmonialCards()}
-            </Carousel>
+            <Container>
+                <h2><ColorPurple>Depoimentos</ColorPurple></h2>
+                <Carousel
+                    responsive={responsive}
+                    arrows={false}
+                    customDot={<CustomDots />}
+                    showDots={true}
+                >
+                    {TestmonialCards()}
+                </Carousel>
+            </Container>
         </Section>
     )
 }
