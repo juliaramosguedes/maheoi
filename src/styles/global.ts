@@ -13,7 +13,7 @@ export default createGlobalStyle`
       font: 300 16px Verdana, sans-serif;
   }
 
-  h1, h2, h3 {
+  h1, h2 {
       font-weight: 300;
       font-family: Raleway, sans-serif;
       text-transform: uppercase;
@@ -29,18 +29,27 @@ export default createGlobalStyle`
 
   h2 {
       font-size: 36px;
+      margin-bottom: 24px;
 
       @media(min-width: 1024px) {
           font-size: 48px;
+          margin-bottom: 36px;
       }
   }
 
   h3 {
-      font-size: 31px;
+      font-size: 20px;
+      margin-bottom: 18px;
+      font-weight: 300;
 
       @media(min-width: 1024px) {
-          font-size: 41px;
+          font-size: 24px;
       }
+  }
+
+  p {
+      margin-bottom: 16px;
+      line-height: 24px;
   }
 
   a {
