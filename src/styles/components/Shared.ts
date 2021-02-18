@@ -40,10 +40,12 @@ export const Button = styled.div`
     font-size: 16px;
     text-align: center;
     max-width: 270px;
-    transition: background-color 0.5s;
+    transition: border 0.5s;
+    transition: color 0.3s;
 
     & :hover {
-        background-color: ${lighten(0.2, '#FFD500')}
+        border: 1px solid #FFD500;
+        color: #FFD500;
     }
 `
 
