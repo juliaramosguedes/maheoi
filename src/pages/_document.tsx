@@ -33,6 +33,20 @@ export default class MyDocument extends Document {
         return(
             <Html lang="pt-BR">
                 <Head>
+                    {/* Início - Global site tag (gtag.js) - Google Analytics */}
+
+                    <script async src="https://www.googletagmanager.com/gtag/js?id=G-63SPKN7LVL" />
+                    <script
+                        dangerouslySetInnerHTML={{
+                            __html: `
+                                window.dataLayer = window.dataLayer || [];
+                                function gtag(){dataLayer.push(arguments)}
+                                gtag('js', new Date());
+                                gtag('config', 'G-63SPKN7LVL');
+                            `,
+                        }}
+                    />
+                    {/* Fim - Global site tag (gtag.js) - Google Analytics */}
                     <meta charSet="utf-8" />
                     <link
                         href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;1,300&display=swap"
