@@ -55,9 +55,18 @@ export default createGlobalStyle`
   a {
       color: inherit;
       text-decoration: none;
+      transition: color 0.3s;
+
+      & :hover {
+          color: #FFD500;
+      }
   }
 
   u {
       text-underline-position: under;
+  }
+
+  button {
+      cursor: pointer;
   }
 `

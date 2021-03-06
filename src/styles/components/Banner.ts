@@ -1,15 +1,20 @@
 import styled from "styled-components";
 
 import bannerBg from '../../assets/banner.jpg';
-import { Section as BaseSection } from './Shared';
 
-export const Section = styled(BaseSection)`
+export const Header = styled.header`
+    padding: 90px 36px 120px;
+
     background: url(${bannerBg}) no-repeat local top center;
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
+    @media(min-width: 1024px) {
+        padding: 90px 48px 150px;
+    }
 
     & > svg {
         width: 135px;

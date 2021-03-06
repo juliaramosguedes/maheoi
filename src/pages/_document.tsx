@@ -60,6 +60,7 @@ export default class MyDocument extends Document {
                         content="Relaxe profundamente e entre em equilíbrio com o reiki xamânico ou adquira mais
                         consciência sobre o seu universo com o tarot. Agende sua consulta online!"
                     />
+                    <meta name="author" content="Julia Ramos" />
                 </Head>
                 <Main />
                 <NextScript />

@@ -16,7 +16,7 @@ const Banner: React.FC = () => {
                         title="Perfil no Linkedin da Julia Ramos, também conhecida como Maheoi"
                     ><u>Julia Ramos</u></a>
                 </p>
-                <p>© Copyright 2021 - Todos os direitos reservados</p>
+                <p>&copy; Copyright 2021 - Todos os direitos reservados</p>
             </ColorWhite>
         </Section>
     )

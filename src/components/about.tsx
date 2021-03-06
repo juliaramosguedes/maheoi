@@ -16,7 +16,7 @@ const Banner: React.FC = () => {
                             <img
                                 src={juliaRamos}
                                 title="Julia Ramos, também conhecida como Maheoi"
-                                alt="Julia Ramos, também conhecida como Maheoi"
+                                alt="Foto de Julia Ramos, também conhecida como Maheoi"
                             />
                         </div>
                     </Image>
@@ -34,13 +34,13 @@ const Banner: React.FC = () => {
                                 adentrei numa floresta, que me levou a uma aldeia. Lá fui recebida por um xamã que me batizou
                                 com esse nome.
                             </p>
-                            <p>Você pode me encontrar no{' '}
+                            <address>Você pode me encontrar no{' '}
                                 <a href="https://www.instagram.com/maheoi.xamanica" title="Perfil no instagram da Maheoi">
                                     <Instagram title="Perfil do Instagram da Maheoi" width="24px"/> <u>maheoi.xamanica</u>
                                 </a>
                                 {' '}ou através do email{' '}
                                 <a href="mailto:ola@maheoi.com" title="Email da Maheoi"><u>ola@maheoi.com</u></a>
-                            </p>
+                            </address>
                         </ColorWhite>
                     </Card>
                 </Flex>

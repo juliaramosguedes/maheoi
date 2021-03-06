@@ -23,16 +23,6 @@ const CustomDots = (props) => {
 const Banner: React.FC = () => {
     const testimonials = [
         {
-            name: 'Fernanda Fortes',
-            service: 'Reiki xamânico',
-            from: 'São Bernardo do Campo, SP - Brasil',
-            testimonial: `“Eu não me considero uma pessoa muito sensitiva, mas quando a Julia aplicou o reiki em mim me
-                senti muito leve, como se estivesse flutuando durante toda a aplicação. Em alguns momentos também sentia
-                um calor maior em algumas partes específicas do corpo, conforme o chakra que ela estava trabalhando.
-                Me senti extremamente relaxada durante a aplicação e também nos dias seguintes. Achei maravilhoso
-                e recomendo a todos.”`
-        },
-        {
             name: 'Henrique Góes',
             service: 'Tarot terapêutico',
             from: 'São Paulo, SP - Brasil',
@@ -45,14 +35,14 @@ const Banner: React.FC = () => {
                 30% no meu salário e uma promoção para o cargo que eu buscava. Gratidão eterna!”`
         },
         {
-            name: 'Poliana Branti',
+            name: 'Fernanda Fortes',
             service: 'Reiki xamânico',
-            from: 'Fort Lauderdale, Florida - USA',
-            testimonial: `“Minha sessão de reiki xamânico foi muito especial! Já tinha feito sessões de reiki antes,
-                mas essa foi muito diferente de uma maneira positiva. Senti como se estivesse em outro plano e tive
-                sensações muito vívidas misturando cores e vivências. Senti uma vibração muito forte do chakra do
-                coração e como se espinhos fossem arrancados. Apos a sessão me senti energizada e meu foco e atenção
-                nas atividades melhoraram muito no dia seguinte. Muito obrigada, Julia”`
+            from: 'São Bernardo do Campo, SP - Brasil',
+            testimonial: `“Eu não me considero uma pessoa muito sensitiva, mas quando a Julia aplicou o reiki em mim me
+                senti muito leve, como se estivesse flutuando durante toda a aplicação. Em alguns momentos também sentia
+                um calor maior em algumas partes específicas do corpo, conforme o chakra que ela estava trabalhando.
+                Me senti extremamente relaxada durante a aplicação e também nos dias seguintes. Achei maravilhoso
+                e recomendo a todos.”`
         },
         {
             name: 'Nami Abe',
@@ -64,7 +54,17 @@ const Banner: React.FC = () => {
                 em mim que estavam enterradas lá no fundo e que tinha medo de acessar, mas que agora estão clareando.
                 Foi lindo ver as cartas se manifestando e o mais incrível foi ver o quanto você se conecta
                 profundamente com as energias. Muito obrigada mesmo, foi surreal.”`
-        }
+        },
+        {
+            name: 'Poliana Branti',
+            service: 'Reiki xamânico',
+            from: 'Fort Lauderdale, Florida - USA',
+            testimonial: `“Minha sessão de reiki xamânico foi muito especial! Já tinha feito sessões de reiki antes,
+                mas essa foi muito diferente de uma maneira positiva. Senti como se estivesse em outro plano e tive
+                sensações muito vívidas misturando cores e vivências. Senti uma vibração muito forte do chakra do
+                coração e como se espinhos fossem arrancados. Apos a sessão me senti energizada e meu foco e atenção
+                nas atividades melhoraram muito no dia seguinte. Muito obrigada, Julia”`
+        },
     ];
 
     const TestmonialCards = () =>
@@ -75,7 +75,7 @@ const Banner: React.FC = () => {
                     <ColorGray>
                         <p>{testimonial}</p>
                         <ParagraphNoMargin><strong>{name}</strong></ParagraphNoMargin>
-                        <ParagraphNoMargin><i>{from}</i></ParagraphNoMargin>
+                        <ParagraphNoMargin><em>{from}</em></ParagraphNoMargin>
                     </ColorGray>
                 </Card>
             </Box>

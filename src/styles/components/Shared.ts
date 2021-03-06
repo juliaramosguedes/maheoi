@@ -32,7 +32,7 @@ export const Card = styled.div`
     }
 `
 
-export const Button = styled.div`
+export const Button = styled.button`
     border: 1px solid #ffffff;
     background-color: transparent;
     padding: 12px 32px;
