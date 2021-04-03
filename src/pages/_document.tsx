@@ -34,7 +34,6 @@ export default class MyDocument extends Document {
             <Html lang="pt-BR">
                 <Head>
                     {/* Início - Global site tag (gtag.js) - Google Analytics */}
-
                     <script async src="https://www.googletagmanager.com/gtag/js?id=G-63SPKN7LVL" />
                     <script
                         dangerouslySetInnerHTML={{

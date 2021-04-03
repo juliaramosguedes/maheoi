@@ -1,7 +1,7 @@
 import React from 'react'
 import {openPopupWidget} from "react-calendly";
 
-import {Section} from '../styles/components/Services'
+import {Li, Section, Ul} from '../styles/components/Services'
 import {Button, Card, ColorWhite, ColorYellow, Container, Flex} from '../styles/components/Shared'
 
 const Banner: React.FC = () => {
@@ -32,10 +32,7 @@ const Banner: React.FC = () => {
                     <Flex>
                         <Card>
                             <ColorWhite>
-                                <Flex>
                                     <h3>Tarot terapêutico</h3>
-                                    <h3>R$ 35</h3>
-                                </Flex>
                                 <p>O tarot terapêutico traz uma maior compreensão e direcionamento, iluminando e se
                                     aprofundando nas
                                     questões da vida de consulente, para auxiliar em sua jornada.</p>
@@ -47,6 +44,8 @@ const Banner: React.FC = () => {
                                     acessadas
                                     as
                                     respostas que condizam com esse critério.</p>
+                                <p>A duração é de 60 minutos. Nesse tempo é possível esclarecer até 3 perguntas, dependendo da
+                                    profundidade de cada pergunta.</p>
                                 <Button
                                     onClick={() => onScheduleClick("https://calendly.com/juliaramos/tarot")}
                                     title="Agendar uma consulta de tarot terapêutico"
@@ -58,10 +57,7 @@ const Banner: React.FC = () => {
                         </Card>
                         <Card>
                             <ColorWhite>
-                                <Flex>
-                                    <h3>Reiki xamânico</h3>
-                                    <h3>R$ 35</h3>
-                                </Flex>
+                                <h3>Reiki xamânico</h3>
                                 <p>O reiki xamânico Ma'Heo'O é um tratamento energético e espiritual, complementar ao
                                     tratamento da
                                     medicina tradicional.</p>
@@ -72,16 +68,26 @@ const Banner: React.FC = () => {
                                 <p>Ma'Heo'O significa Grande Espírito e sua prática combina a energia de Ma'Heo’O com a
                                     energia da
                                     Mãe Terra, atráves dos quatro elementos (Fogo, Terra, Água e Ar).</p>
+                                <p>A duração é de 60 minutos, sendo 30 minutos de aplicação e 15 minutos de conversa antes e depois da aplicação.</p>
                                 <Button
                                     onClick={() => onScheduleClick("https://calendly.com/juliaramos/reiki")}
                                     title="Agendar uma consulta de reiki xamânico"
                                     type="button"
-                                >Agendar
-                                    uma
-                                    consulta</Button>
+                                >
+                                    Agendar uma consulta</Button>
                             </ColorWhite>
                         </Card>
                     </Flex>
+                    <ColorWhite>
+                        <h3>Valores</h3>
+                        <p>Os serviços ofertados tem 3 opções de valor à sua escolha:</p>
+                        <Ul>
+                            <Li>R$35 (mínimo)</Li>
+                            <Li>R$44 (suficiente)</Li>
+                            <Li>R$ 53 (abundante)</Li>
+                        </Ul>
+
+                    </ColorWhite>
                 </Container>
             </Section>
         </main>
