@@ -35,8 +35,8 @@ const Banner: React.FC = () => {
                                 com esse nome.
                             </p>
                             <address>Você pode me encontrar no{' '}
-                                <a href="https://www.instagram.com/maheoi.xamanica" title="Perfil no instagram da Maheoi">
-                                    <Instagram title="Perfil do Instagram da Maheoi" width="24px"/> <u>maheoi.xamanica</u>
+                                <a href="https://www.instagram.com/juliamaheoi" title="Perfil no instagram da Maheoi">
+                                    <Instagram title="Perfil do Instagram da Maheoi" width="24px"/> <u>juliamaheoi</u>
                                 </a>
                                 {' '}ou através do email{' '}
                                 <a href="mailto:ola@maheoi.com" title="Email da Maheoi"><u>ola@maheoi.com</u></a>
