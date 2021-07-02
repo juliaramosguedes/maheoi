@@ -32,7 +32,10 @@ const Banner: React.FC = () => {
                     <Flex>
                         <Card>
                             <ColorWhite>
+                                <Flex>
                                     <h3>Tarot terapêutico</h3>
+                                    <h3>R$80</h3>
+                                </Flex>
                                 <p>O tarot terapêutico traz uma maior compreensão e direcionamento, iluminando e se
                                     aprofundando nas
                                     questões da vida de consulente, para auxiliar em sua jornada.</p>
@@ -57,7 +60,10 @@ const Banner: React.FC = () => {
                         </Card>
                         <Card>
                             <ColorWhite>
-                                <h3>Reiki xamânico</h3>
+                                <Flex>
+                                    <h3>Reiki xamânico</h3>
+                                    <h3>R$69</h3>
+                                </Flex>
                                 <p>O reiki xamânico Ma'Heo'O é um tratamento energético e espiritual, complementar ao
                                     tratamento da
                                     medicina tradicional.</p>
@@ -78,16 +84,6 @@ const Banner: React.FC = () => {
                             </ColorWhite>
                         </Card>
                     </Flex>
-                    <ColorWhite>
-                        <h3>Valores</h3>
-                        <p>Os serviços ofertados tem 3 opções de valor à sua escolha:</p>
-                        <Ul>
-                            <Li>R$35 (mínimo)</Li>
-                            <Li>R$44 (suficiente)</Li>
-                            <Li>R$ 53 (abundante)</Li>
-                        </Ul>
-
-                    </ColorWhite>
                 </Container>
             </Section>
         </main>
